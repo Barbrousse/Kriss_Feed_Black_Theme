@@ -1,0 +1,35 @@
+body {background: #2C2C2C;color: #fff;}
+@media (max-width: 767px) {.span9{width:95% !important;}}
+a{color:#F0F0F0;}
+.current a {color: #666;}
+a:hover{color: #2C2C2C;}
+#status>a:hover{color: #fff;}
+li.feed {margin: 4px;}
+li.folder > h5 {border: 0px;}
+li.folder > h5 > a {vertical-align: middle;}
+li.folder > h4 {border: 0px;}
+li.feed.has-unread {font-weight: normal;}
+.label, .badge {color: #aaa;background-color: transparent;}
+.ico-b-disc {background-color: #3F3F3F;}
+.well, .navbar {border: 0px;background-color: #3F3F3F;}
+.well{border-radius: 2px;}
+.navbar {width: 95%;margin: 15px auto;}
+.navbar .nav > li > a {padding: 8px;}
+#paging-up, #paging-down {display: none;}
+.nav-collapse.collapse {font-size: 70%;}
+.item-info-end {font-size: 70%;color: #aaa;}
+.row-fluid .span3 {width: 15%;overflow: hidden;font-size: 70%;}
+.row-fluid .span9 {width: 85%;border-radius: 3px;}
+#list-items {width: 95%;margin: auto;}
+.item-link {color: #fff;}
+.item-expanded {color: #D8D8D8;padding-top: 5px;}
+@media (max-width: 767px) {.item-expanded {border-top: 0px;}}
+.current .item-link {color: #2C2C2C;}
+.current {color: #3F3F3F !important;background-color: #fff !important;}
+.current>.item-content>article>a,
+.current>.item-info-author>.item-via{color: #2C2C2C;}
+#list-feeds {margin: 10px;}
+.folder {margin: 15px 0;}
+#minor-container {background-color: #3F3F3F;overflow-y: scroll;}
+.current, .current-feed, .current-folder > h5, .current-folder > h4 {background-color: #3F3F3F;}
+li.folder > h4:hover, li.folder > h5:hover {background-color: #3F3F3F;}
